@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "idle": {
+    "screensaver": 150,
+    "lock": 300
+  },
+  "bar": {
+    "position": "top",
+    "transparent": true,
+    "centerAnchor": "omarchy.clock",
+    "layout": {
+      "left": [
+        {
+          "id": "omarchy.menu"
+        },
+        {
+          "id": "moorgrove.overview"
+        },
+        {
+          "id": "io.github.maxart.simple-workspaces"
+        },
+        {
+          "id": "io.github.devasstated.workspace-stash",
+          "displayMode": "icons",
+          "maxIcons": 5,
+          "maxNames": 5,
+          "overflowCountMode": "total",
+          "overflowStyle": "badge"
+        }
+      ],
+      "center": [
+        {
+          "id": "omarchy.indicators",
+          "items": [
+            "Dictation",
+            "Reminder",
+            "NightLight"
+          ],
+          "alwaysShow": false
+        },
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "dutchster.omachron",
+          "reminderHours": 8,
+          "recapSentKey": "2026-09-25"
+        },
+        {
+          "id": "omarchy.clock",
+          "format": "yyyy-MM-dd HH:mm",
+          "formatAlt": "d MMMM 'W'ww yyyy",
+          "verticalFormat": "HH\n—\nmm"
+        },
+        {
+          "id": "omarchy.weather"
+        },
+        {
+          "id": "bibek.media"
+        },
+        {
+          "id": "io.github.joejoeflyn.omacat"
+        },
+        {
+          "id": "omarchy.system-update"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "id": "07dcolem.appimages"
+        },
+        {
+          "id": "io.github.brm-src.plugin-control-center"
+        },
+        {
+          "id": "glasschan.oma-swiss"
+        },
+        {
+          "id": "dimapanov.nvidia"
+        },
+        {
+          "id": "mokkabonna.plugin-settings"
+        },
+        {
+          "id": "io.github.nag3sy.dockhand-control"
+        },
+        {
+          "id": "community.shoxjaxon.snippets"
+        },
+        {
+          "id": "jrmmhm.pocket",
+          "members": "omarchy.tray, io.github.nag3sy.dockhand-control, community.shoxjaxon.snippets, mokkabonna.plugin-settings"
+        },
+        {
+          "id": "omarchy.agents"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omargram"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "omarchy.power"
+        }
+      ]
+    }
+  },
+  "plugins": [
+    {
+      "id": "sgruendel.fzf"
+    },
+    {
+      "id": "io.github.0x1ocean.keyglow"
+    },
+    {
+      "id": "zzwong.stage"
+    },
+    {
+      "id": "oxhenri.mouse"
+    }
+  ],
+  "disabledPlugins": [
+    "omarchy.media"
+  ],
+  "cloneSourceRestores": [
+    "bibek.media"
+  ]
+}
